@@ -10,7 +10,7 @@ customers = Customer()
 # This is is the main handler that class
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write("Customers Microservice v1")
+        self.write("Customers Microservice v1.1")
 
 #This will fork out to the specific handlers based on the request
 def make_app():
